@@ -5,8 +5,8 @@ Can be used on manual (evsonganaly) segmentations or automatic WhisperSeg segmen
 Usage: 
 1. download directory of scrips
 2. for a single directory, use
-   ```bash
-   crop_songs_dir('\PATH\TO\INPUT_DIRECTORY' , 'PATH\TO\OUTPUT_DIRECTORY', MAT_ANNOTATION_FLAG)
+   ```MATLAB
+   >> crop_songs_dir('\PATH\TO\INPUT_DIRECTORY' , 'PATH\TO\OUTPUT_DIRECTORY', MAT_ANNOTATION_FLAG)
    ```
    where MAT_ANNOTATION_FLAG is a boolean. If folder alredy contains .not.mat evsonganaly segmentations, set the flag to 1:
     crop_songs_dir(path\to\input, path\t\outputdir, 1) 
